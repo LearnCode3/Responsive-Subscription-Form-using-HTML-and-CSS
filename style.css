@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #038387;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+form .content{
+    margin-bottom: 40px;
+    text-align: center;    
+}
+
+form .content h1{
+   color: #ffffff;
+   font-size: 40px;
+   font-family: koho;
+}
+
+form .content p{
+    font-size: 1.1rem;
+   color: #ffffff;
+   font-family: koho;
+}
+
+.input-control{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.input-control input{
+    flex: 1 0 10rem;
+    padding: 16px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    
+}
+
+.input-control button{
+    flex: 1 0 5rem;
+    padding: 14px 20px;
+    background-color: #038387;
+    border: 1px solid #ffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: koho;
+    border-radius: 3px;
+    transition: .4s all;
+
+}
+
+button:hover{
+    background-color: #00a7ad;
+}
